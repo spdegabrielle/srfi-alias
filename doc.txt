@@ -1,0 +1,59 @@
+_srfi-alias_: getting SRFIs by name
+---------------------------------
+
+Index terms: _srfi-alias.plt_ _srfi-alias_ _srfi-alias.ss_
+
+This is a slightly silly package for getting at the SRFI's without
+remembering their numbers.  The complete set of SRFI's supported by
+this package are:
+
+   1:  list.ss
+   2:  and-let.ss
+   5:  let.ss
+   7:  program.ss
+   8:  receive.ss
+   9:  record.ss
+   13: string.ss
+   14: char-set.ss
+   17: set.ss
+   19: time.ss
+   25: array.ss
+   26: cut.ss
+   27: random-bits.ss
+   29: localization.ss
+   31: rec.ss
+   32: sort.ss
+   34: exception.ss
+   40: stream.ss
+   42: comprehensions.ss
+   43: vector-lib.ss
+   45: lazy.ss
+   48: format.ss
+   54: cat.ss
+   57: records.ss
+   59: vicinity.ss
+   67: compare.ss
+   69: hash.ss
+   71: letvalues.ss
+   78: check.ss
+   87: case.ss
+
+
+This package does nothing else than reprovide these SRFIs under their
+respective descriptive names.
+
+
+For example, to get at SRFI-1, you can say:
+
+    (require (planet "list.ss" ("dyoo" "srfi-alias.plt" 1)))
+
+
+
+References
+----------
+
+SRFI:
+http://srfi.schemers.org/
+
+Mailing list discussion: 
+http://www.cs.brown.edu/pipermail/plt-scheme/2007-May/017857.html

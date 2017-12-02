@@ -1,0 +1,1 @@
+(module format (planet "mzlite.ss" ("dherman" "mzlite.plt" 1 0)) (provide (all-from (lib "48.ss" "srfi"))) (require (lib "48.ss" "srfi")))

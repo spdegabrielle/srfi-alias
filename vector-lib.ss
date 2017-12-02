@@ -1,0 +1,1 @@
+(module vector-lib (planet "mzlite.ss" ("dherman" "mzlite.plt" 1 0)) (provide (all-from (lib "43.ss" "srfi"))) (require (lib "43.ss" "srfi")))

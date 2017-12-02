@@ -1,0 +1,1 @@
+(module case (planet "mzlite.ss" ("dherman" "mzlite.plt" 1 0)) (provide (all-from (lib "87.ss" "srfi"))) (require (lib "87.ss" "srfi")))

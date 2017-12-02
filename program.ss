@@ -1,0 +1,1 @@
+(module program (planet "mzlite.ss" ("dherman" "mzlite.plt" 1 0)) (provide (all-from (lib "7.ss" "srfi"))) (require (lib "7.ss" "srfi")))

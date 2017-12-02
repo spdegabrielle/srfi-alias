@@ -1,0 +1,1 @@
+(module record (planet "mzlite.ss" ("dherman" "mzlite.plt" 1 0)) (provide (all-from (lib "9.ss" "srfi"))) (require (lib "9.ss" "srfi")))
